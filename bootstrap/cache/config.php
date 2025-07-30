@@ -197,7 +197,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\framework/cache/data',
+        'path' => 'D:\\learning management system\\Studyli-lms\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -289,10 +289,10 @@
         'driver' => 'mysql',
         'url' => NULL,
         'host' => '127.0.0.1',
-        'port' => '3306',
+        'port' => '3307',
         'database' => 'studyli_xampp',
         'username' => 'root',
-        'password' => '',
+        'password' => 'rahatSARKER8123#',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -309,10 +309,10 @@
         'driver' => 'pgsql',
         'url' => NULL,
         'host' => '127.0.0.1',
-        'port' => '3306',
+        'port' => '3307',
         'database' => 'studyli_xampp',
         'username' => 'root',
-        'password' => '',
+        'password' => 'rahatSARKER8123#',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -324,10 +324,10 @@
         'driver' => 'sqlsrv',
         'url' => NULL,
         'host' => '127.0.0.1',
-        'port' => '3306',
+        'port' => '3307',
         'database' => 'studyli_xampp',
         'username' => 'root',
-        'password' => '',
+        'password' => 'rahatSARKER8123#',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -370,13 +370,13 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\app',
+        'root' => 'D:\\learning management system\\Studyli-lms\\storage\\app',
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\app/public',
+        'root' => 'D:\\learning management system\\Studyli-lms\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
         'throw' => false,
@@ -396,7 +396,7 @@
     ),
     'links' => 
     array (
-      'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\public\\storage' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\app/public',
+      'D:\\learning management system\\Studyli-lms\\public\\storage' => 'D:\\learning management system\\Studyli-lms\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -435,13 +435,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\logs/laravel.log',
+        'path' => 'D:\\learning management system\\Studyli-lms\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\logs/laravel.log',
+        'path' => 'D:\\learning management system\\Studyli-lms\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -493,7 +493,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\logs/laravel.log',
+        'path' => 'D:\\learning management system\\Studyli-lms\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -559,7 +559,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\resources\\views/vendor/mail',
+        0 => 'D:\\learning management system\\Studyli-lms\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -666,7 +666,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\framework/sessions',
+    'files' => 'D:\\learning management system\\Studyli-lms\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -686,9 +686,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\resources\\views',
+      0 => 'D:\\learning management system\\Studyli-lms\\resources\\views',
     ),
-    'compiled' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms\\storage\\framework\\views',
+    'compiled' => 'D:\\learning management system\\Studyli-lms\\storage\\framework\\views',
   ),
   'flare' => 
   array (
@@ -774,7 +774,7 @@
     array (
     ),
     'enable_runnable_solutions' => NULL,
-    'remote_sites_path' => 'C:\\Users\\USER\\OneDrive\\Desktop\\learning management system\\Studyli-lms',
+    'remote_sites_path' => 'D:\\learning management system\\Studyli-lms',
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
     'settings_file_path' => '',
