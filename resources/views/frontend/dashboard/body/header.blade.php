@@ -27,8 +27,8 @@
                             </form>
                             <div class="nav-right-button d-flex align-items-center">
                                 <div class="user-action-wrap d-flex align-items-center">
-                                 
-                                   
+
+
     <div class="shop-cart wishlist-cart pr-3 mr-3 border-right border-right-gray">
         <ul>
             <li>
@@ -126,7 +126,7 @@
     $id = Auth::user()->id;
     $profileData = App\Models\User::find($id);
     @endphp
-    
+
 
     <div class="shop-cart user-profile-cart">
         <ul>
@@ -174,7 +174,7 @@
                     </li>
                     <li>
                         <ul class="generic-list-item">
-                             
+
                             <li>
                                 <a href="dashboard-settings.html">
                                     <i class="la la-gear mr-1"></i> Settings
@@ -210,7 +210,7 @@
                             <li><div class="section-block"></div></li>
                             <li>
                                 <a href="#" class="position-relative">
-                                    <span class="fs-17 font-weight-semi-bold d-block">Aduca for Business</span>
+                                    <span class="fs-17 font-weight-semi-bold d-block">Studyli for Business</span>
                                     <span class="lh-20 d-block fs-14 text-gray">Bring learning to your company</span>
                                     <span class="position-absolute top-0 right-0 mt-3 mr-3 fs-18 text-gray">
                                     <i class="la la-external-link"></i>

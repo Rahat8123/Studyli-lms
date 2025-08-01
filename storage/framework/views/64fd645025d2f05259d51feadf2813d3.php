@@ -1,12 +1,43 @@
 <?php $__env->startSection('instructor'); ?>
 
 
+<?php
+
+
+
+  $id = Auth::user()->id;
+
+
+  $instructorId = App\Models\User::find($id);
+
+
+  $status = $instructorId->status;
+
+
+?>
+
 
 
 
 <div class="page-content">
 
 
+  <?php if($status === '1'): ?>
+
+
+  <h4>Instructor Account Is <span class="text-success">Active</span> </h4>
+
+
+  <?php else: ?>
+
+
+  <h4>Instructor Account Is <span class="text-danger">InActive</span> </h4>
+
+
+ <p class="text-danger"><b> Plz wait admin will check and approve your account</b> </p>
+
+
+  <?php endif; ?>
     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
 
 

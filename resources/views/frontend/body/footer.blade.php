@@ -7,9 +7,9 @@
                         <img src="images/logo.png" alt="footer logo" class="footer__logo">
                     </a>
                     <ul class="generic-list-item pt-4">
-                        <li><a href="tel:+1631237884">+163 123 7884</a></li>
+                        <li><a href="tel:+1631237884">01826426287</a></li>
                         <li><a href="mailto:support@wbsite.com">support@website.com</a></li>
-                        <li>Melbourne, Australia, 105 South Park Avenue</li>
+                        <li>Daffodil International University</li>
                     </ul>
                     <h3 class="fs-20 font-weight-semi-bold pt-4 pb-2">We are on</h3>
                     <ul class="social-icons social-icons-styled">
@@ -27,7 +27,7 @@
                     <ul class="generic-list-item">
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Become a Teacher</a></li>
+                        <li><a href="{{ route('become.instructor') }}">Become a Teacher</a></li>
                         <li><a href="#">Support</a></li>
                         <li><a href="#">FAQs</a></li>
                         <li><a href="#">Blog</a></li>

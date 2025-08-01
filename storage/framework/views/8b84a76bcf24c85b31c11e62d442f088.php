@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="header-widget">
-                       
+
                     </div><!-- end header-widget -->
                 </div><!-- end col-lg-6 -->
                 <div class="col-lg-6">
@@ -30,8 +30,46 @@
                             </button>
                         </div>
                         <ul class="generic-list-item d-flex flex-wrap align-items-center fs-14 border-left border-left-gray pl-3 ml-3">
-                            <li class="d-flex align-items-center pr-3 mr-3 border-right border-right-gray"><i class="la la-sign-in mr-1"></i><a href="login.html"> Login</a></li>
-                            <li class="d-flex align-items-center"><i class="la la-user mr-1"></i><a href="sign-up.html"> Register</a></li>
+
+
+
+
+     <?php if(auth()->guard()->check()): ?>
+
+
+    <li class="d-flex align-items-center pr-3 mr-3 border-right border-right-gray"><i class="la la-sign-in mr-1"></i><a href="<?php echo e(route('dashboard')); ?>"> Dashboard</a></li>
+
+
+    <li class="d-flex align-items-center"><i class="la la-user mr-1"></i><a href="<?php echo e(route('user.logout')); ?>"> Logout</a></li>
+
+
+
+
+
+    <?php else: ?>
+
+
+
+
+
+    <li class="d-flex align-items-center pr-3 mr-3 border-right border-right-gray"><i class="la la-sign-in mr-1"></i><a href="<?php echo e(route('login')); ?>"> Login</a></li>
+
+
+    <li class="d-flex align-items-center"><i class="la la-user mr-1"></i><a href="<?php echo e(route('register')); ?>"> Register</a></li>
+
+
+
+
+
+    <?php endif; ?>
+
+
+
+
+
+
+
+
                         </ul>
                     </div><!-- end header-widget -->
                 </div><!-- end col-lg-6 -->

@@ -311,8 +311,8 @@
                     <div class="menu-title">Manage Category</div>
                 </a>
                 <ul>
-                    <li> <a href="#"><i class='bx bx-radio-circle'></i>All Category </a></li>
-                    <li> <a href="#"><i class='bx bx-radio-circle'></i>All SubCategory  </a></li>
+                    <li> <a href="{{ route('all.category') }}"><i class='bx bx-radio-circle'></i>All Category </a></li>
+                    <li> <a href="{{ route('all.subcategory') }}"><i class='bx bx-radio-circle'></i>All SubCategory  </a>
                 </ul>
             </li>
             <li>
@@ -321,7 +321,7 @@
                     <div class="menu-title">Manage Instructor</div>
                 </a>
                 <ul>
-                    <li> <a href="#"><i class='bx bx-radio-circle'></i>All Instructor</a></li>
+                    <li> <a href="{{ route('all.instructor') }}"><i class='bx bx-radio-circle'></i>All Instructor</a></li>
                 </ul>
             </li>
 

@@ -8,21 +8,21 @@
         </div>
         <div class="media-body">
             <h2 class="section__title fs-30">Hello, {{ $profileData->name }}</h2>
-            
+
         </div><!-- end media-body -->
     </div><!-- end media -->
-   
+
 </div><!-- end breadcrumb-content -->
 
 
 <div class="tab-pane fade show active" id="edit-profile" role="tabpanel" aria-labelledby="edit-profile-tab">
     <div class="setting-body">
         <h3 class="fs-17 font-weight-semi-bold pb-4">Edit Profile</h3>
-       
-       
-        <form method="post" action="{{ route('user.profile.update') }}" enctype="multipart/form-data" class="row pt-40px">
+
+
+         <form method="post" action="{{ route('user.profile.update') }}" enctype="multipart/form-data" class="row pt-40px">
         @csrf
-       
+
         <div class="media media-card align-items-center">
             <div class="media-img media-img-lg mr-4 bg-gray">
                 <img class="mr-3" src="{{ (!empty($profileData->photo)) ? url('upload/user_images/'.$profileData->photo) : url('upload/no_image.jpg')}}" alt="avatar image">
@@ -36,7 +36,7 @@
 
             </div>
         </div><!-- end media -->
-        
+
             <div class="input-box col-lg-6">
                 <label class="label-text"> Name</label>
                 <div class="form-group">
@@ -75,9 +75,9 @@
                     <span class="la la-user input-icon"></span>
                 </div>
             </div><!-- end input-box -->
-          
 
-  
+
+
             <div class="input-box col-lg-12 py-2">
                 <button class="btn theme-btn">Save Changes</button>
             </div><!-- end input-box -->

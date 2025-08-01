@@ -1,3 +1,19 @@
+<?php
+
+
+  $id = Auth::user()->id;
+
+
+  $instructorId = App\Models\User::find($id);
+
+
+  $status = $instructorId->status;
+
+
+?>
+
+
+
 <div class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
         <div>
@@ -18,7 +34,7 @@
                 <div class="menu-title">Dashboard</div>
             </a>
         </li>
-
+  <?php if($status === '1'): ?>
         <li class="menu-label">Course Management</li>
 
         <li>
@@ -114,7 +130,13 @@
                 <div class="menu-title">Profile Settings</div>
             </a>
         </li>
+        <?php else: ?>
 
+
+
+
+
+        <?php endif; ?>
         <li>
             <a href="support.html">
                 <div class="parent-icon"><i class="bx bx-help-circle"></i></div>
